@@ -1,699 +1,2074 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Jinni Tarot</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Jinni Tarot</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- All css files are included here. -->
-    <!-- Bootstrap fremwork main css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Owl Carousel main css -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- This core.css file contents all plugings css file. -->
-    <link rel="stylesheet" href="css/core.css">
-    <!-- Theme shortcodes/elements style -->
-    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
-    <!-- Theme main style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- User style -->
-    <link rel="stylesheet" href="css/custom.css">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
 
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
-    <!-- Modernizr JS -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
+		<!-- all css here -->
+		<!-- bootstrap v3.3.6 css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- jquery-ui.min css -->
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- meanmenu css -->
+		<link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- nivo-slider css -->
+		<link rel="stylesheet" href="lib/css/nivo-slider.css">
+		<link rel="stylesheet" href="lib/css/preview.css">
+		<!-- slick css -->
+		<link rel="stylesheet" href="css/slick.css">
+		<!-- lightbox css -->
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<!-- material-design-iconic-font css -->
+		<link rel="stylesheet" href="css/material-design-iconic-font.css">
+		<!-- All common css of theme -->
+		<link rel="stylesheet" href="css/default.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+        <!-- shortcode css -->
+        <link rel="stylesheet" href="css/shortcode.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr css -->
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+	<body>
+		<!-- WRAPPER START -->
+		<div class="wrapper">
 
-<body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->  
-
-    <!-- Body main wrapper start -->
-    <div class="wrapper wrap__box__style--1">
-        <!-- Start Header Style -->
-        <header id="header" class="htc-header header--3 bg__white">
-            <!-- Start Mainmenu Area -->
-            <div id="sticky-header-with-topbar" class="mainmenu__area sticky__header">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
-                            <div class="logo">
-                                <a href="index.html">
-                                  
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Start MAinmenu Ares -->
-                        <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
-                            <nav class="mainmenu__nav hidden-xs hidden-sm">
-                                <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">關於Jinni Tarot</a>
-                                        
-                                    </li>
-                                    <li class="drop"><a href="index.html">塔羅占卜</a>
-                                      
+			<!-- Mobile-header-top Start -->
+			<div class="mobile-header-top hidden-lg hidden-md hidden-sm">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- header-search-mobile start -->
+							<div class="header-search-mobile">
+								<div class="table">
+									<div class="table-cell">
+										<ul>
+											<li><a class="search-open" href="#"><i class="zmdi zmdi-search"></i></a></li>
+											<li><a href="login.html"><i class="zmdi zmdi-lock"></i></a></li>
+											<li><a href="my-account.html"><i class="zmdi zmdi-account"></i></a></li>
+											<li><a href="wishlist.html"><i class="zmdi zmdi-favorite"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- header-search-mobile start -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Mobile-header-top End -->
+			<!-- HEADER-AREA START -->
+			<header id="sticky-menu" class="header">
+				<div class="header-area">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-4 col-sm-offset-4 col-xs-7">
+								<div class="logo text-center">
+									<a href="index.html"><img src=" img/logo/logo.png " alt="" /></a>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xs-5">
+								<div class="mini-cart text-right">
+									<ul>
+										<li>
+											<a class="cart-icon" href="#">
+												<i class="zmdi zmdi-favorite"></i>
+												<span>1</span>
+											</a>
+											<div class="mini-cart-brief text-left">
+												<div class="cart-items">
+													<p class="mb-0">Here is Jinni Tarot. Nice to meet you.  </p>
+												</div>
+												<div class="all-cart-product clearfix">
+													<div class="single-cart clearfix">
+														<div class="cart-photo">
+															<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
+														</div>
+														<div class="cart-info">
+															<h5><a href="#">Jinni Tarot</a></h5>
+															<p class="mb-0">塔羅占卜</p>
+															<p class="mb-0">創立於2015年·夏 </p>
+															<p class="mb-0">十年以上經驗</p>
+															<span class="cart-delete"><a href="#"><i class="zmdi zmdi-close"></i></a></span>
+														</div>
+													</div>
+													<div class="single-cart clearfix">
+														<div class="cart-photo">
+															<a href="#"><img src="img/cart/2.jpg" alt="" /></a>
+														</div>
+														<div class="cart-info">
+															<h5><a href="#">Jinni Wish</a></h5>
+															<p class="mb-0">水晶香水、輕奢首飾</p>
+															<p class="mb-0">茶道、五行香薰蠟燭</p>
+															<span class="cart-delete"><a href="#"><i class="zmdi zmdi-close"></i></a></span>
+														</div>
+													</div>
+												</div>
+												<div class="cart-totals">
+													<h5 class="mb-0">澳門黑沙環馬路44H號當街地鋪<span class="floatright"></span></h5>
+												</div>
+												<div class="cart-bottom  clearfix">
+													<a href="#" class="button-one floatleft text-uppercase" data-text="jinni_tarot">微信客服</a>
+													<a href="#" class="button-one floatright text-uppercase" data-text="微信客服">jinni_Tarot</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MAIN-MENU START -->
+				<div class="menu-toggle hamburger hamburger--emphatic hidden-xs">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+				<div class="main-menu  hidden-xs">
+					<nav>
+						<ul>
+							<li><a href="index.html">首頁</a>
+								<div class="sub-menu menu-scroll">
+									<ul>
+										<li class="menu-title">我們的品牌</li>
+										<li><a href="#">關於Jinni Tarot</a></li>
+										<li><a href="#">關於Jinni Wish</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">塔羅占卜</a></li>
+							<li><a href="#">紫微斗數</a></li>
+                            <li><a href="#">水晶普及</a>
+                                <div class="sub-menu menu-scroll">
+                                    <ul>
+                                        <li class="menu-title">水晶普及</li>
+										<li><a href="#">水晶種類</a></li>
+                                        <li><a href="#">水晶保養消磁</a></li>
+                                        <li><a href="#">水晶治療</a></li>
+                                        <li><a href="#">水晶美容</a></li>
+                                        <li><a href="#">水晶星座誕生石</a></li>
                                        
-                                    </li>
-                                    <li class="drop"><a href="index.html">水晶知識</a>
-                                       
-                                    </li>
-                                    <li class="drop"><a href="index.html">五行系列</a>
-                                        
-                                           
-                                    </li>
-                                    <li><a href="index.html">聯絡我們</a></li>
-                              
-                                        
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="offset__sosial__share">
-                        <h4 class="offset__title">
-                             <font face = "Comic Sans MS" size ="5">
-                            Jinni Tarot<br>
-                            Since 2015<br>
-                            Follow Us On Social Media
-                        </font>
-                        </h4>
-                        <ul class="off__soaial__link">
-                           
-                            
-                            <li><a class="bg--instagram" href="https://www.instagram.com/jinni_tarot_macau/" title="Instagram"><i class="zmdi zmdi-instagram"></i></a></li>
-
-                            <li><a class="bg--facebook" href="https://www.facebook.com/profile.php?id=100076219806057" title="Facebook"><i class="zmdi zmdi-facebook"></i></a></li>
-
-                            <li><a class="bg--googleplus" href="https://www.google.com/search?q=%E7%B2%BE%E9%9D%88%E5%A1%94.%E6%B0%B4%E6%99%B6&stick=H4sIAAAAAAAA_wE8AMP_CAYiJTB4MzQwMTdiNTA5YTk2ZjliZDoweDJiOTllMTc0NjQ3NGYyOGKiBRDnsr7pnYjloZQu5rC05pm25d7I6jwAAAA&hl=zh-TW&mat=CaM7c8hhAI_-ElYBeenfiIZTkzigDaZMDcnQBP-CfoXZDvS8-3CTjbjqttLzcm_E8zercw-W4kIvS9iPIHj91pq0AoXswI-593GzC3vdG9jdCTE8rgOC4dGi2rsSvL_60g&authuser=0&ved=2ahUKEwjXtN6t2M2AAxWQ_2EKHTNrBZsQ-MgIegQIJxAe" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a></li>
-
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Offset MEnu -->
-            <!-- Start Cart Panel -->
-            <div class="shopping__cart">
-                <div class="shopping__cart__inner">
-                    <div class="offsetmenu__close__btn">
-                        <a href="#"><i class="zmdi zmdi-close"></i></a>
-                    </div>
-                    <div class="shp__cart__wrap">
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="images/product/sm-img/1.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$105.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="images/product/sm-img/2.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$25.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="shoping__total">
-                        <li class="subtotal">Subtotal:</li>
-                        <li class="total__price">$130.00</li>
-                    </ul>
-                    <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Cart Panel -->
-        </div>
-        <!-- End Offset Wrapper -->
-        <!-- Start Slider Area -->
-        <div class="slider__container slider--four">
-            <div class="slider__activation__wrap owl-carousel owl-theme">
-                <!-- Start Single Slide -->
-                <div class="slide slider__fixed--height" style="background: rgba(0, 0, 0, 0) url(images/slider/bg/3.jpg) no-repeat scroll center center / cover ;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-7 col-lg-6 col-lg-offset-6 col-md-offset-5 col-sm-10 col-sm-offset-2 col-xs-12">
-                                <div class="slider__content">
-                                    <div class="slider__inner">
-                                        
-                                        <h1><font color="#FFE7BA">創立於2015年‧夏</font></h1>
-                                        <h4><font color="#FFE7BA">門口有打卡燈位<br>
-                                            -The decisions we made in the past created our present<br>
-                                            -我們過去所做的決定締造了我們的現在
-
-
-                                        </font></h4>
-                           
-                                        <div class="slider__btn">
-                                          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Slide -->
-            </div>
-        </div>
-        <!-- Start Slider Area -->
-        <div class="custop__container bg__cat--2 mt--100">
-            <div class="popular__product--2 product-hover-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="section__title section__title--2 text-center">
-                                <h2 class="title__line">熱門產品</h2>
-                                <p>Ship Worldwide 全球配送
-                                    <br>當街地鋪，歡迎到店睇現貨
-                                    <br>全部現貨，歡迎聯繫客服睇實物圖選購
-                                    <br>澳門滿$200 享Ebuy包郵
-                                    <br>內地、香港、台灣滿$1000包郵
-                                    
-                                     </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start Product MEnu -->
-                    <div class="htc__product__container product__with__filter  pb--20">
-                        <div class="row mt--70">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <div class="filter__menu__container">
-                                    <div class="product__menu">
-                                        <button data-filter="*"  class="is-checked">Jinni Tarot</button>
-                                        <button data-filter=".cat--1">塔羅占卜</button>
-                                        <button data-filter=".cat--2">Jinni Wish原創</button>
-                                        <button data-filter=".cat--3">水晶產品</button>
-                                        <button data-filter=".cat--4">微信客服：jinni_tarot 了解更多</button>
-                                    </div>
-                                    <div class="filter__box">
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Start Filter Menu -->
-                        <div class="filter__wrap">
-                            <div class="filter__cart">
-                                <div class="filter__cart__inner">
-                                    <div class="filter__menu__close__btn">
-                                        <a href="#"><i class="zmdi zmdi-close"></i></a>
-                                    </div>
-                                    <div class="filter__content">
-                                        <!-- Start Single Content -->
-                                        <div class="fiter__content__inner">
-                                            <div class="single__filter">
-                                               
-                                            </div>
-                                        </div>
-                                        <!-- End Single Content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Filter Menu -->
-                        <!-- End Product MEnu -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="popular__product__container product__list clearfix">
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--2 cat--4">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/1.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                        <a>五行香薰蠟燭 $238</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--3">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/2.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>Super7 $4000up</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                              
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--1 cat--4">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/3.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>到店占卜 $288up</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--2 cat--3">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/4.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>水晶香水 $468</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                      
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--1 cat--4">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/6.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>網上占卜 $200up</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                       
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--2 cat--3">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/7.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>原創水晶香薰 $288</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--1 cat--4">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/8.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>網上占卜 PDF回覆 $128題</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--2">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/9.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>茶道香薰蠟燭 $168up</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--1 cat--4 hidden-md hidden-sm">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="images/popular-pro-2/10.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                         <a>季度塔羅占卜 $488</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--3 hidden-md hidden-sm">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                        <img src="images/popular-pro-2/5.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                        <a>水晶擺件</a>
-                                                        <li><a title="Add To Wishlist" href="index.html"><span class="ti-heart"></span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="product__details">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Product -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Start Footer Area -->
-            <footer class="htc__foooter__area bg__cat--2 footer--4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="footer__container clearfix">
-                            <!-- Start Single Footer Widget -->
-                            <div class="col-md-3 col-lg-3 col-sm-6">
-                                <div class="ft__widget">
-                                    <div class="ft__logo">
-                                        <a href="index.html">
-                                            <img src="images/logo/logo.png" alt="footer logo">
-                                        </a>
-                                    </div>
-                                    <div class="footer-address">
-                                        <ul>
-                                            <li>
-                                                <div class="address-icon">
-                                                    <i class="zmdi zmdi-pin"></i>
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>澳門黑沙環馬路44H號當街地鋪  <br>黑沙環馬路巴士站正對面</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="address-icon">
-                                                    <i class="zmdi zmdi-email"></i>
-                                                </div>
-                                                <div class="address-text">
-                                                    <a href="#"> jinnitarotmacau@gmail.com</a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="address-icon">
-                                                    <i class="zmdi zmdi-phone-in-talk"></i>
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>Wechat: jinni_tarot </p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <ul class="social__icon">
-                                        <li><a href="#"><i class="zmdi zmdi-youtube"></i></a></li>
-                                        <li><a href="https://www.instagram.com/jinni_tarot_macau/"><i class="zmdi zmdi-instagram"></i></a></li>
-                                        <li><a href="https://www.facebook.com/profile.php?id=100076219806057"><i class="zmdi zmdi-facebook"></i></a></li>
-                                        <li><a href="https://www.google.com/search?q=%E7%B2%BE%E9%9D%88%E5%A1%94.%E6%B0%B4%E6%99%B6&stick=H4sIAAAAAAAA_wE8AMP_CAYiJTB4MzQwMTdiNTA5YTk2ZjliZDoweDJiOTllMTc0NjQ3NGYyOGKiBRDnsr7pnYjloZQu5rC05pm25d7I6jwAAAA&hl=zh-TW&mat=CaM7c8hhAI_-ElYBeenfiIZTkzigDaZMDcnQBP-CfoXZDvS8-3CTjbjqttLzcm_E8zercw-W4kIvS9iPIHj91pq0AoXswI-593GzC3vdG9jdCTE8rgOC4dGi2rsSvL_60g&authuser=0&ved=2ahUKEwjXtN6t2M2AAxWQ_2EKHTNrBZsQ-MgIegQIJxAe"><i class="zmdi zmdi-google-plus"></i></a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <!-- End Single Footer Widget -->
-                            <!-- Start Single Footer Widget -->
-                            <div class="col-md-3 col-lg-3 col-sm-6 smt-30 xmt-30">
-                                <div class="ft__widget">
-                                    <h2 class="ft__title">Jinni Tarot 精靈塔</h2>
-                                    <ul class="footer-categories">
-                                        <li><a href="#">塔羅占卜</a></li>
-                                        <li><a href="#">水晶手鍊</a></li>
-                                        <li><a href="#">客製化水晶飾品</a></li>
-                                        <li><a href="#">水晶擺件</a></li>
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#">紫微斗數</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Start Single Footer Widget -->
-                            <div class="col-md-3 col-lg-3 col-sm-6 smt-30 xmt-30">
-                                <div class="ft__widget">
-                                    <h2 class="ft__title">創立於2015年·夏</h2>
-                                    <ul class="footer-categories">
-                                        <li><a href="#">Jinni Wish 925</a></li>
-                                        <li><a href="#">原創水晶香薰</a></li>
-                                        <li><a href="#">水晶香水</a></li>
-                                        <li><a href="#">五行香薰蠟燭</a></li>
-                                        <li><a href="#">茶道香薰蠟燭</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Start Single Footer Widget -->
-                            <div class="col-md-3 col-lg-3 col-sm-6 smt-30 xmt-30">
-                                <div class="ft__widget">
-                                    <h2 class="ft__title">當街地鋪．舒適環境</h2>
-                                    <div class="newsletter__form">
-                                        <p>
-                                            門口有打卡燈位<br>
-                                            -The decisions we made in the past created our present<br>
-                                            -我們過去所做的決定締造了我們的現在                                            
-                                            </p>
-                                        <div class="input__box">
-                                            <div id="mc_embed_signup">
-                                                <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                                    <div id="mc_embed_signup_scroll" class="htc__news__inner">
-                                                        <div class="news__input">
-                                                        </div>
-                                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
-                                                        <div class="clearfix subscribe__btn"><input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="bst__btn btn--white__color">
+                            </li>
+							
+							
+							
+							<li><a href="#">Jinni Wish香氣</a>
+								<div class="sub-menu menu-scroll">
+									<ul>
+										<li class="menu-title">Jinni Wish香氣</li>
+										<li><a href="#">水晶香水</a></li>
+										<li><a href="#">水晶香水工作坊</a></li>
+										<li><a href="#">茶道、五行香薰蠟燭</a></li>
+										<li><a href="#">原創水晶擴香精油套裝</a></li>
+									</ul>
+								</div>
+							</li>
+							
+							<li><a href="#">花禮 鮮花與永生花</a></li>
+							
+							<li><a href="#">聯絡我們</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- MAIN-MENU END -->
+			</header>
+			<!-- HEADER-AREA END -->
+			<!-- Mobile-menu start -->
+			<div class="mobile-menu-area">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 hidden-lg hidden-md hidden-sm">
+							<div class="mobile-menu">
+								<nav id="dropdown">
+									<ul>
+										<li><a href="index.html">Home</a>
+											<ul>
+												<li><a href="index.html">Home Version 1</a></li>
+												<li><a href="index-2.html">Home Version 2</a></li>
+											</ul>
+										</li>
+										<li><a href="shop.html">products</a></li>
+										<li><a href="shop-sidebar.html">accesories</a></li>
+										<li><a href="shop-list.html">lookbook</a></li>
+										<li><a href="blog.html">blog</a></li>
+										<li><a href="#">pages</a>
+											<ul>
+												<li><a href="shop.html">Shop</a></li>
+												<li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+												<li><a href="shop-list.html">Shop List</a></li>
+												<li><a href="single-product.html">Single Product</a></li>
+												<li><a href="single-product-sidebar.html">Single Product Sidebar</a></li>
+												<li><a href="cart.html">Shopping Cart</a></li>
+												<li><a href="wishlist.html">Wishlist</a></li>
+												<li><a href="checkout.html">Checkout</a></li>
+												<li><a href="order.html">Order</a></li>
+												<li><a href="login.html">login / Registration</a></li>
+												<li><a href="my-account.html">My Account</a></li>
+												<li><a href="404.html">404</a></li>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="single-blog.html">Single Blog</a></li>
+												<li><a href="single-blog-sidebar.html">Single Blog Sidebar</a></li>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="contact.html">Contact</a></li>
+											</ul>
+										</li>
+										<li><a href="about.html">about us</a></li>
+										<li><a href="contact.html">contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Mobile-menu end -->
+			<!-- SLIDER-BANNER-AREA START -->
+			<section class="slider-banner-area clearfix">
+				<!-- Sidebar-social-media start -->
+				<div class="sidebar-social hidden-xs">
+					<div class="table">
+						<div class="table-cell">
+							<ul>
+								<li><a href="https://www.google.com/search?q=%E7%B2%BE%E9%9D%88%E5%A1%94.%E6%B0%B4%E6%99%B6&stick=H4sIAAAAAAAA_wE8AMP_CAYiJTB4MzQwMTdiNTA5YTk2ZjliZDoweDJiOTllMTc0NjQ3NGYyOGKiBRDnsr7pnYjloZQu5rC05pm25d7I6jwAAAA&hl=zh-TW&mat=CaM7c8hhAI_-ElYBeenfiIZTkzigDaZMDcnQBP-CfoXZDvS8-3CTjbjqttLzcm_E8zercw-W4kIvS9iPIHj91pq0AoXswI-593GzC3vdG9jdCTE8rgOC4dGi2rsSvL_60g&authuser=0&ved=2ahUKEwjXtN6t2M2AAxWQ_2EKHTNrBZsQ-MgIegQIJxAe" target="_blank" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a></li>
+								<li><a href="https://www.xiaohongshu.com/user/profile/5fd4143a000000000100472c?xhsshare=CopyLink&appuid=5fd4143a000000000100472c&apptime=1696860131" target="_blank" title="XHS"><i class="zmdi zmdi-account"></i></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100076219806057" target="_blank" title="Facebook"><i class="zmdi zmdi-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/jinni_tarot_macau/" target="_blank" title="Instagram"><i class="zmdi zmdi-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Sidebar-social-media start -->
+				<div class="banner-left floatleft">
+					<!-- Slider-banner start -->
+					<div class="slider-banner">
+						<div class="single-banner banner-1">
+							<a class="banner-thumb" href="#"><img src="img/banner/1.jpg" alt="" /></a>
+							<span class="pro-label new-label hidden-md">熱門</span>
+							<span class="price hidden-md">$288 30ml</span>
+							<div class="banner-brief">
+								<h2 class="banner-title hidden-md"><a href="#">水晶香水</a></h2>
+								<p class="mb-0 hidden-md">事業、戀慕...更多</p>
+							</div>
+							<a href="#" class="button-one font-16px" data-text="了解更多">水晶香水</a>
+						</div>
+						<div class="single-banner banner-2">
+							<a class="banner-thumb" href="#"><img src="img/banner/2.jpg" alt="" /></a>
+							<span class="pro-label new-label hidden-md">熱門</span>
+							<span class="price hidden-md">$4xx up</span>
+							<div class="banner-brief">
+								<h2 class="banner-title hidden-md"><a href="#">摩根石</a></h2>
+								<p class="mb-0 hidden-md">少女版超七</p>
+								<a href="#" class="button-one font-16px" data-text="了解更多">水晶功效</a>
+							</div>
+						</div>
+					</div>
+					<!-- Slider-banner end -->
+				</div>
+				<div class="slider-right floatleft">
+					<!-- Slider-area start -->
+					<div class="slider-area">
+						<div class="bend niceties preview-2">
+							<div id="ensign-nivoslider" class="slides">
+								<img src="img/slider/slider-1/1.jpg" alt="" title="#slider-direction-1"  />
+								<img src="img/slider/slider-1/2.jpg" alt="" title="#slider-direction-2"  />
+								<img src="img/slider/slider-1/3.jpg" alt="" title="#slider-direction-3"  />
+							</div>
+							<!-- direction 1 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												
+												<h2 class="slider-title3 text-uppercase mb-0" ></h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title1 text-uppercase mb-0" style="background-color:Ivory"><font color="gray">澳門黑沙環馬路44H號當街地鋪</font></h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h3 class="slider-title2 text-uppercase" ></h3>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2.5s" data-wow-delay="3.5s">
+												<a href="#" class="button-one style-2 text-uppercase mt-20" data-text="了解更多">Jinn Tarot</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- direction 2 -->
+							<div id="slider-direction-2" class="slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1">
+											<div class="wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0" style="background-color:Ivory">建議預約到店<br>享更優質接待</h2>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+												<h2 class="slider-title1 text-uppercase" style="background-color:Ivory">舒適 清潔 寧靜的環境</h2>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.5s">
+												<p class="slider-pro-brief" style="background-color:Ivory">微信客服：jinni_tarot</p>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="0.5s">
+												<a href="#" class="button-one style-2 text-uppercase mt-20" data-text="了解更多">塔羅占卜</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- direction 3 -->
+							<div id="slider-direction-3" class="slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1">
+											<div class="wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0" style="background-color:Ivory" ><font face="Charmonman">Jinni Wish</font></h2>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+												<h2 class="slider-title1 text-uppercase mb-0" style="background-color:Ivory">打卡燈位</h2>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.5s">
+												<h3 class="slider-title2 text-uppercase" style="background-color:Ivory" >-我們過去所做的決定締造了我們的現在-</h3>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="0.5s">
+												<p class="slider-pro-brief" style="background-color:Ivory"><font face="Charmonman">-The decisions we made in the past created our present-</font></p>
+											</div>
+											<div class="wow fadeInUpBig" data-wow-duration="3s" data-wow-delay="0.5s">
+												<a href="#" class="button-one style-2 text-uppercase mt-20" data-text="了解更多">到店導航</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Slider-area end -->
+				</div>
+				<!-- Sidebar-social-media start -->
+				<div class="sidebar-account hidden-xs">
+					<div class="table">
+						<div class="table-cell">
+							<ul>
+								<li><a href="#" title="Tarot Comment"><i class="zmdi zmdi-comments"></i></a>
+									<div class="customer-login text-left">
+										<form action="#">
+											<h4 class="title-1 title-border text-uppercase mb-30">塔羅占卜客人好評</h4>
+											<p class="Black">Mint--2016年</p>
+											<p class="text-gray">我系第一次占卜，好多野都講得好岩，解答左我好多問題比左好多意見我</p>
+											<p class="text-gray">我會跟住做架啦，希望真系會有好結果啦，價錢又唔貴，下次會再搵返你地</p>
+											<p class="text-gray">多謝塔羅師細心耐心咁解答占卜結果啊</p>
+										</form>
+									</div>
+								</li>
 
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>        
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Footer Widget -->
-                        </div>
-                    </div>
-                    <!-- Start Copyright Area -->
-                    <div class="htc__copyright__area">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <div class="copyright__inner">
-                                    <div class="copyright">
-                                        <p>
-                                    All Right Reserved.</p>
-                                    </div>
-                                    <ul class="footer__menu">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="index.html">Product</a></li>
-                                        <li><a href="index.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Copyright Area -->
-                </div>
-            </footer>
-            <!-- End Footer Area -->
-        </div>
-    </div>
-    <!-- Body main wrapper end -->
-    <!-- QUICKVIEW PRODUCT -->
-    <div id="quickview-wrapper">
-        <!-- Modal -->
-        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal__container" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-product">
-                            <!-- Start product images -->
-                            <div class="product-images">
-                                <div class="main-image images">
-                                    <img alt="big images" src="images/product/big-img/1.jpg">
-                                </div>
-                            </div>
-                            <!-- end product images -->
-                            <div class="product-info">
-                                <h1>Simple Fabric Bags</h1>
-                                <div class="rating__and__review">
-                                    <ul class="rating">
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                    </ul>
-                                    <div class="review">
-                                        <a href="#">4 customer reviews</a>
-                                    </div>
-                                </div>
-                                <div class="price-box-3">
-                                    <div class="s-price-box">
-                                        <span class="new-price">$17.20</span>
-                                        <span class="old-price">$45.00</span>
-                                    </div>
-                                </div>
-                                <div class="quick-desc">
-                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
-                                </div>
-                                <div class="select__color">
-                                   
-                                </div>
-                                <div class="select__size">
-                                    <h2>Select size</h2>
-                                    <ul class="color__list">
-                                        <li class="l__size"><a title="L" href="#">L</a></li>
-                                        <li class="m__size"><a title="M" href="#">M</a></li>
-                                        <li class="s__size"><a title="S" href="#">S</a></li>
-                                        <li class="xl__size"><a title="XL" href="#">XL</a></li>
-                                        <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
-                                    </ul>
-                                </div>
-                                <div class="social-sharing">
-                                    <div class="widget widget_socialsharing_widget">
-                                        <h3 class="widget-title-modal">Share this product</h3>
-                                        <ul class="social-icons">
-                                            <li><a target="_blank" title="rss" href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-                                            <li><a target="_blank" title="Linkedin" href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                            <li><a target="_blank" title="Tumblr" href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="addtocart-btn">
-                                    <a href="#">Add to cart</a>
-                                </div>
-                            </div><!-- .product-info -->
-                        </div><!-- .modal-product -->
-                    </div><!-- .modal-body -->
-                </div><!-- .modal-content -->
-            </div><!-- .modal-dialog -->
-        </div>
-        <!-- END Modal -->
-    </div>
-    <!-- END QUICKVIEW PRODUCT -->
-    <!-- Placed js at the end of the document so the pages load faster -->
+								<li><a href="#" title="Tarot Comment"><i class="zmdi zmdi-comments"></i></a>
+									<div class="customer-login text-left">
+										<form action="#">
+											<h4 class="title-1 title-border text-uppercase mb-30">塔羅占卜客人好評</h4>
+											
+											<p class="Black">娟--2022年</p>
+											<p class="text-gray">我諗唔到占卜問題，但實在太好了</p>
+											<p class="text-gray">塔羅師會因應我的情況同需要</p>
+											<p class="text-gray">去占卜我想要知道的問題同困惑</p>
+										</form>
+									</div>
+								</li>
 
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-1.12.0.min.js"></script>
-    <!-- Bootstrap framework js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All js plugins included in this file. -->
-    <script src="js/plugins.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Waypoints.min.js. -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="js/main.js"></script>
+								<li><a href="#" title="Crystal Comment"><i class="zmdi zmdi-comments"></i></a>
+									<div class="customer-login text-left">
+										<form action="#">
+											<h4 class="title-1 title-border text-uppercase mb-30">水晶產品客人好評</h4>
+											<p class="Black">Pretty Lady--2021年</p>
+											<p class="text-gray">在Jinni Tarot 買煙花極光送給弟弟，戴左大約二個月條水晶越黎越閃，越黎越靚</p>
+											<p class="text-gray">之前Send左好耐CV的工作，有三份一齊叫佢面試，最後有二份都請，任佢揀工</p>
+											<p class="text-gray">新工的條件唔錯，弟弟好開心，話帶左條水晶之後好多野都向好發展</p>
+										</form>
+									</div>
+								</li>
+								
+								<li><a href="#" title="Crystal Comment"><i class="zmdi zmdi-comments"></i></a>
+									<div class="customer-login text-left">
+										<form action="#">
+											<h4 class="title-1 title-border text-uppercase mb-30">水晶產品客人好評</h4>
+											<p class="Black">Kimi--2022年</p>
+											<p class="text-gray">我網上下單的，同客服聯絡付款後隔天就收到貨</p>
+											<p class="text-gray">條水晶手鏈好靚啊，同埋尺寸啱啱好</p>
+											<p class="text-gray">我中意這樣子</p>
+										</form>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Sidebar-social-media start -->
+			</section>
+			<!-- End Slider-section -->
+			<!-- sidebar-search Start -->
+			<div class="sidebar-search animated slideOutUp">
+				<div class="table">
+					<div class="table-cell">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-8 col-sm-offset-2 p-0">
+									<div class="search-form-wrap">
+										<button class="close-search"><i class="zmdi zmdi-close"></i></button>
+										<form action="#">
+											<input type="text" placeholder="Search here..." />
+											<button class="search-button" type="submit">
+												<i class="zmdi zmdi-search"></i>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- sidebar-search End -->
+			<!-- PRODUCT-AREA START -->
+			<div class="product-area pt-80 pb-35">
+				<div class="container">
+					<!-- Section-title start -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="section-title text-center">
+								<h2 class="title-border">獨家精選</h2>
+							</div>
+						</div>
+					</div>
+					<!-- Section-title end -->
+					<div class="row cus-row-30">
+						<div class="product-slider arrow-left-right">
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<span class="pro-label new-label">New</span>
+									<a href="#"><img src="img/product/1.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">Jinni Wish水晶香水</a></h4>
+										<p class="floatright hidden-sm hidden-xs">30/50ml</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$288/ $468</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- Single-product end -->
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<span class="pro-label new-label">New</span>
+									<a href="#"><img src="img/product/2.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">原創五行水晶擴香套裝</a></h4>
+										<p class="floatright hidden-sm hidden-xs">一套三件</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$288</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- Single-product end -->
 
-</body>
+<!-- Single-product start -->
+<div class="single-product col-lg-12">
+	<div class="product-img">
+		<span class="pro-label sale-label">Sale</span>
+		<a href="#"><img src="img/product/8.jpg" alt="" /></a>
+		<div class="product-action clearfix">
+			<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+		</div>
+	</div>
+	<div class="product-info clearfix">
+		<div class="fix">
+			<h4 class="post-title floatleft"><a href="#">午間時段塔羅優惠</a></h4>
+			<p class="floatright hidden-sm hidden-xs">15分鐘</p>
+		</div>
+		<div class="fix">
+			<span class="pro-price floatleft">$188</span>
+			<span class="pro-rating floatright">
+				<a href="#"><i class="zmdi zmdi-star"></i></a>
+				<a href="#"><i class="zmdi zmdi-star"></i></a>
+				<a href="#"><i class="zmdi zmdi-star"></i></a>
+				<a href="#"><i class="zmdi zmdi-star"></i></a>
+				<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+			</span>
+		</div>
+	</div>
+</div>
+<!-- Single-product end -->
 
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<a href="#"><img src="img/product/3.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">到店塔羅占卜</a></h4>
+										<p class="floatright hidden-sm hidden-xs">15/30mins</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$288 up</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+
+<!-- Single-product end -->
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<a href="#"><img src="img/product/6.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">網上塔羅占卜</a></h4>
+										<p class="floatright hidden-sm hidden-xs">單題占卜</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$128 up</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+
+<!-- Single-product end -->
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<a href="#"><img src="img/product/5.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">Jinni Wish五行香薰蠟燭</a></h4>
+										<p class="floatright hidden-sm hidden-xs">Net 280g</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$238 up</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<!-- Single-product end -->
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<a href="#"><img src="img/product/4.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">原創Jinni Wish茶道香薰蠟燭</a></h4>
+										<p class="floatright hidden-sm hidden-xs">95g/125g</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$168 up</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- Single-product end -->
+							<!-- Single-product start -->
+							<div class="single-product col-lg-12">
+								<div class="product-img">
+									<span class="pro-label new-label">new</span>
+									<a href="#"><img src="img/product/7.jpg" alt="" /></a>
+									<div class="product-action clearfix">
+										<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+									</div>
+								</div>
+								<div class="product-info clearfix">
+									<div class="fix">
+										<h4 class="post-title floatleft"><a href="#">季度占卜</a></h4>
+										<p class="floatright hidden-sm hidden-xs">網上占卜</p>
+									</div>
+									<div class="fix">
+										<span class="pro-price floatleft">$488</span>
+										<span class="pro-rating floatright">
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star"></i></a>
+											<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- Single-product end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- PRODUCT-AREA END -->
+			<!-- DISCOUNT-PRODUCT START -->
+			<div class="discount-product-area">
+				<div class="container">
+					<div class="row">
+						<div class="discount-product-slider dots-bottom-right">
+							<!-- single-discount-product start -->
+							<div class="col-lg-12">
+								<div class="discount-product">
+									<img src="img/discount/1.jpg" alt="" />
+									<div class="discount-img-brief">
+										<div class="onsale">
+											<span class="onsale-text">超七</span>
+											<span class="onsale-price">Super7</span>
+										</div>
+										<div class="discount-info">
+											<h1 class="text-dark-red hidden-xs">事事順利</h1>
+											<p class="hidden-xs"><span style="color:rgb(211, 142, 52);">Super7能量之強，被市場一致認為能為配戴者吸引好運，事事順利<br>帶來順利的事業，有利與人緣及開花結點的戀情，功效相當全面。</span></p>
+											<a href="#" class="button-one font-16px style-3 text-uppercase mt-5" data-text="了解更多">Super 7</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single-discount-product end -->
+							<!-- single-discount-product start -->
+							<div class="col-lg-12">
+								<div class="discount-product">
+									<img src="img/discount/2.jpg" alt="" />
+									<div class="discount-img-brief">
+										<div class="onsale">
+											<span class="onsale-text">水晶擺設</span>
+											<span class="onsale-price">消磁淨化</span>
+										</div>
+										<div class="discount-info">
+											<h1 class="text-dark-red hidden-xs">水晶應用廣泛</h1>
+											<p class="hidden-xs"><span style="color:rgb(211, 142, 52);">科學界公認水晶有聚焦折射、儲存資料、傳遞訊息、能源轉換、能量擴大等，因此水晶在科學生活應用廣泛，同時由於水晶具有能量，因此對一個環境空間的磁場改善很有幫助，在居家風水上，擺設水晶就具有強化或改善風水的功效。</span></p>
+											<a href="#" class="button-one font-16px style-3 text-uppercase mt-5" data-text="了解更多">水晶擺件</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single-discount-product end -->
+							<!-- single-discount-product start -->
+							<div class="col-lg-12">
+								<div class="discount-product">
+									<img src="img/discount/3.jpg" alt="" />
+									<div class="discount-img-brief">
+										<div class="onsale">
+											<span class="onsale-text">Jinni Wish</span>
+											<span class="onsale-price">純銀925</span>
+										</div>
+										<div class="discount-info">
+											<h1 class="text-dark-red hidden-xs">輕奢水晶小飾品</h1>
+											<p class="hidden-xs"><span style="color:rgb(204, 146, 71);">Jinni Wish 純銀925系列，使用925 純銀、玫瑰金、皮革等材質，結合優質水晶原料，屬於獨一無二的輕奢小飾品❤️另設有客製化服務，可依據客人的喜好，設計出專屬的飾品。</span></p>
+											<a href="#" class="button-one font-16px style-3 text-uppercase mt-5" data-text="了解更多">Jinni Wish 925</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single-discount-product end -->
+							<!-- single-discount-product start -->
+							<div class="col-lg-12">
+								<div class="discount-product">
+									<img src="img/discount/4.jpg" alt="" />
+									<div class="discount-img-brief">
+										<div class="onsale">
+											<span class="onsale-text">水晶手鏈</span>
+											<span class="onsale-price">應有盡有</span>
+										</div>
+										<div class="discount-info">
+											<h1 class="text-dark-red hidden-xs">澳門滿$200包郵</h1>
+											<p class="hidden-xs"><span style="color:rgb(128, 92, 45);">各款水晶手鏈齊備，當街地鋪，歡迎到店睇現貨，設免費五行配對推薦合適水晶服務。同時歡迎聯繫客服睇現貨實物圖選購，澳門滿$200 享Ebuy包郵，內地、香港、台灣滿$1000包郵<br>微信客服: jinni_tarot，Ship Worldwide 全球配送。<br></span></p>
+											<a href="#" class="button-one font-16px style-3 text-uppercase mt-5" data-text="了解更多">水晶功效</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single-discount-product end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- DISCOUNT-PRODUCT END -->
+			<!-- PURCHASE-ONLINE-AREA START -->
+			<div class="purchase-online-area pt-80">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="section-title text-center">
+								<h2 class="title-border">產品概覽</h2><br>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<!-- Nav tabs -->
+							<ul class="tab-menu clearfix">
+								<li class="active"><a href="#new-arrivals" data-toggle="tab">水晶擺件</a></li>
+								<li><a href="#best-seller"  data-toggle="tab">熱銷推薦</a></li>
+								<li><a href="#most-view" data-toggle="tab">塔羅占卜</a></li>
+								<li><a href="#discounts" data-toggle="tab">水晶飾品</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-12">
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="new-arrivals">
+									<div class="row">
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">New</span>
+												<a href="#"><img src="img/product/9.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">白晶簇</a></h4>
+													<p class="floatright hidden-sm">水晶消磁</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$2xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label sale-label">Sale</span>
+												<a href="#"><img src="img/product/10.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">紫晶簇</a></h4>
+													<p class="floatright hidden-sm">推薦</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$2xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/11.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">東陵玉七星陣</a></h4>
+													<p class="floatright hidden-sm">仕途 事業 順利</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$9xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/12.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">金曜石擺件</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$5xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">new</span>
+												<a href="#"><img src="img/product/13.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">粉晶球</a></h4>
+													<p class="floatright hidden-sm">姻緣 女性貴人</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$8xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">New</span>
+												<a href="#"><img src="img/product/14.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">茶晶球</a></h4>
+													<p class="floatright hidden-sm">大尺寸</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$9xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/15.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">聚寶盆</a></h4>
+													<p class="floatright hidden-sm">家居 事業都適合</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$2xxx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/16.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">紫晶洞</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$3xxx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+									</div>
+								</div>
+								<div class="tab-pane" id="best-seller">
+									<div class="row">
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">new</span>
+												<a href="#"><img src="img/product/30.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">水晶香水工作坊</a></h4>
+													<p class="floatright hidden-sm">50ml禮盒包裝</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$468</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">New</span>
+												<a href="#"><img src="img/product/1.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">水晶香水</a></h4>
+													<p class="floatright hidden-sm">事業、戀慕、順利…</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$288 30ml</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/31.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">Jinni Wish同名香薰</a></h4>
+													<p class="floatright hidden-sm">Net 280g</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$288</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/32.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">Jinni Wish五行香薰</a></h4>
+													<p class="floatright hidden-sm">>Net 280g</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$238</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												
+												<a href="#"><img src="img/product/18.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">塔羅占卜</a></h4>
+													<p class="floatright hidden-sm">網占 店占齊備</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$128 up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												
+												<a href="#"><img src="img/product/33.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">水晶消磁產品</a></h4>
+													<p class="floatright hidden-sm">多款選擇</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$38 up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/34.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">原創水晶擴香精油套裝</a></h4>
+													<p class="floatright hidden-sm">推薦</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$288</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/4.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">原創茶道香薰蠟燭</a></h4>
+													<p class="floatright hidden-sm">細品中式茶香</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$168 up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+									</div>
+								</div>
+								<div class="tab-pane" id="most-view">
+									<div class="row">
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">new</span>
+												<a href="#"><img src="img/product/3.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">到店塔羅占卜</a></h4>
+													<p class="floatright hidden-sm">15/30mins</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$288/$488</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label sale-label">Sale</span>
+												<a href="#"><img src="img/product/8.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">午間時段塔羅優惠</a></h4>
+													<p class="floatright hidden-sm">需提前一天付訂金預約</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$188 up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/6.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">單題塔羅占卜</a></h4>
+													<p class="floatright hidden-sm">網上形式 PDF文檔回覆</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$128/題</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/17.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">季度塔羅占卜</a></h4>
+													<p class="floatright hidden-sm">預測季度運勢 附建議</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$128/項</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">new</span>
+												<a href="#"><img src="img/product/18.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">網占塔羅占卜</a></h4>
+													<p class="floatright hidden-sm">限時任問 仍是2015年價格</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$200 up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label sale-label">Sale</span>
+												<a href="#"><img src="img/product/19.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">免費大眾占卜</a></h4>
+													<p class="floatright hidden-sm">看圖片了解玩法</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">FREE</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/20.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+										<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+										<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+										<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">紫微斗數 流年運勢詳批</a></h4>
+													<p class="floatright hidden-sm">PDF文檔回覆</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$588</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/21.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">紫微斗數 命盤詳批</a></h4>
+													<p class="floatright hidden-sm">PDF文檔回覆</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$1088</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+									</div>
+								</div>
+								<div class="tab-pane" id="discounts">
+									<div class="row">
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label sale-label">Sale</span>
+												<a href="#"><img src="img/product/22.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">純銀水晶耳環</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$6x up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label sale-label">Sale</span>
+												<a href="#"><img src="img/product/23.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">純銀水晶手鏈</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$9x up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/24.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">紫龍晶</a></h4>
+													<p class="floatright hidden-sm">頸繩款只需$128</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$6xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<a href="#"><img src="img/product/25.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">坦桑石</a></h4>
+													<p class="floatright hidden-sm">品質齊備</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$5xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">new</span>
+												<a href="#"><img src="img/product/26.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">純銀水晶頸鏈</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$2xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-md-4 col-sm-4 col-xs-12">
+											<div class="product-img">
+												<span class="pro-label new-label">New</span>
+												<a href="#"><img src="img/product/27.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">純銀水晶頸鏈</a></h4>
+													<p class="floatright hidden-sm">更多款式未能盡錄</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$2xx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/28.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">星空拉長石</a></h4>
+													<p class="floatright hidden-sm">耳環 頸鏈 手鏈 香水</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$8x up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+										<!-- Single-product start -->
+										<div class="single-product col-lg-3 col-xs-12 hidden-md hidden-sm">
+											<div class="product-img">
+												<a href="#"><img src="img/product/29.jpg" alt="" /></a>
+												<div class="product-action clearfix">
+													<a data-toggle="tooltip" data-placement="top" title="Like it"><i class="zmdi zmdi-favorite-outline"></i></a>
+													<a href="#" data-toggle="modal"  data-target="#productModal" title="Purchase"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+													<a href="#" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="zmdi zmdi-refresh"></i></a>
+													<a data-toggle="tooltip" data-placement="top" title="Really like it"><i class="zmdi zmdi-favorite"></i></a>
+												</div>
+											</div>
+											<div class="product-info clearfix">
+												<div class="fix">
+													<h4 class="post-title floatleft"><a href="#">碧璽</a></h4>
+													<p class="floatright hidden-sm">功效齊備</p>
+												</div>
+												<div class="fix">
+													<span class="pro-price floatleft">$1xxx up</span>
+													<span class="pro-rating floatright">
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+														<a href="#"><i class="zmdi zmdi-star-half"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<!-- Single-product end -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- PURCHASE-ONLINE-AREA END -->
+			<!-- BLGO-AREA START -->
+			<div class="blog-area pt-55">
+				<div class="container">
+					<!-- Section-title start -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="section-title text-center">
+								<h2 class="title-border">澳門塔羅占卜</h2>
+								
+							</div>
+						</div>
+					</div>
+					<!-- Section-title end -->
+					<div class="row">
+						<!-- Single-blog start -->
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="single-blog mt-30">
+								<div class="row">
+									<div class="col-lg-6 col-md-7 col-sm-7 col-xs-12">
+										<div class="blog-info">
+											<div class="post-meta fix">
+												<div class="post-date floatleft"><span class="text-dark-red">22</span></div>
+												<div class="post-year floatleft">
+													<p class="text-uppercase text-dark-red mb-0">Summer, 2015</p>
+													<h4 class="post-title"><a href="#" tabindex="0">Jinni Tarot 投入服務</a></h4>
+												</div>
+											</div>
+											<div class="like-share fix">
+												<a href="#"><i class="zmdi zmdi-favorite"></i><span>88 Like</span></a>
+												<a href="#"><i class="zmdi zmdi-comments"></i><span>68 Comments</span></a>
+												<a href="#"><i class="zmdi zmdi-share"></i><span>32 Share</span></a>
+											</div>
+											<p>Jinni Tarot 塔羅師擁有十年以上的占卜經驗，多年以來客人好評不斷，為更好的推廣普及塔羅占卜，實體門市於2021年成立，提供舒適、衛生、私隱度高的環境，設一對一的塔羅占卜服務，務求讓客人在占卜過程中感到舒適、乾淨、私隱的保障。塔羅占卜有現場到店占卜，與網上占卜形式，視乎客人所需而選擇適合的占卜形式。<br>預約/查詢，請聯絡微信客服：jinni_tarot</p>
+											<a href="#" class="button-2 text-dark-red">Read more...</a>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+										<div class="blog-photo">
+											<a href="#"><img src="img/blog/1.jpg" alt="" /></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-blog end -->
+						<!-- Single-blog start -->
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="single-blog mt-30">
+								<div class="row">
+									<div class="col-lg-6 col-md-7 col-sm-7 col-xs-12">
+										<div class="blog-info">
+											<div class="post-meta fix">
+												<div class="post-date floatleft"><span class="text-dark-red">30</span></div>
+												<div class="post-year floatleft">
+													<p class="text-uppercase text-dark-red mb-0">November, 2021</p>
+													<h4 class="post-title"><a href="#" tabindex="0">水晶香水工作坊</a></h4>
+												</div>
+											</div>
+											<div class="like-share fix">
+												<a href="#"><i class="zmdi zmdi-favorite"></i><span>80 Like</span></a>
+												<a href="#"><i class="zmdi zmdi-comments"></i><span>58 Comments</span></a>
+												<a href="#"><i class="zmdi zmdi-share"></i><span>28 Share</span></a>
+											</div>
+											<p>由您本人親手調配專屬於您的水晶香水，二十款晶石任選，配搭Jinni Wish特級精油，完成時可帶走
+												一枝50ml，專屬於您的水晶香水，備有精美禮盒包裝，送禮自用兼具優雅大方。<br>
+												單獨預約的客人，同一個時段場所只會接待您一人，請放心好好享受療癒的私人時光，
+												同時歡迎與親朋好友同行（優質尊貴體驗，每時段上限兩位），共同製造出飄香水的回憶。
+												
+												
+												
+											</p>
+											<a href="#" class="button-2 text-dark-red">Read more...</a>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+										<div class="blog-photo">
+											<a href="#"><img src="img/blog/2.jpg" alt="" /></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-blog end -->
+					</div>
+				</div>
+			</div>
+			<!-- BLGO-AREA END -->
+			<!-- SUBSCRIVE-AREA START -->
+			<div class="subscribe-area pt-80">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="subscribe">
+								<form action="#">
+									<input type="text" placeholder="為提供更優質服務，建議到店前聯絡微信客服，謝謝支持"/>
+									<button class="submit-button submit-btn-2 button-one" data-text="微信客服" type="submit" >jinni_tarot</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- SUBSCRIVE-AREA END -->
+			<!-- FOOTER START -->
+			<footer>
+				<!-- Footer-area start -->
+				<div class="footer-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">Contact Us</h3>
+									<ul class="footer-contact">
+										<li><span>Address :</span>澳門黑沙環馬路44H號當街地鋪<br>「黑沙環馬路」 巴士站 正對面</li>
+										<li><span>微信客服 :</span>jinni_tarot</li>
+										<li><span>Email :</span>jinnitarotmacau@gmail.com</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">Jinni Tarot</h3>
+									<ul class="footer-menu">
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>塔羅占卜</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>紫微斗數</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>水晶手鏈</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>水晶擺設</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>客製化水晶飾品</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">Jinni Wish</h3>
+									<ul class="footer-menu">
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>純銀925水晶飾品</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>水晶香水</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>茶道、五行香薰蠟燭</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>原創水晶擴香精油套裝</a></li>
+										<li><a href="#"><i class="zmdi zmdi-dot-circle"></i>花禮 鮮花與永生花</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">今期推薦產品</h3>
+									<div class="footer-product">
+										<div class="row">
+											<div class="col-sm-6 col-xs-12">
+												<div class="footer-thumb">
+													<a href="#"><img src="img/footer/1.jpg" alt="" /></a>
+													<div class="footer-thumb-info">
+														<p><a href="#">粉晶<br>旺貴人 利人緣</a></p>
+														<h4 class="price-3">$4xx up</h4>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6 col-xs-12">
+												<div class="footer-thumb">
+													<a href="#"><img src="img/footer/2.jpg" alt="" /></a>
+													<div class="footer-thumb-info">
+														<p><a href="#">紅幽靈<br>極品金字塔</a></p>
+														<h4 class="price-3">$1xxx up</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Footer-area end -->
+				<!-- Copyright-area start -->
+				<div class="copyright-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-xs-12">
+								<div class="copyright">
+									<p class="mb-0">&copy; <a target="_blank" href="http://www.jinnitarot.com/">Jinni Tarot</a> Since 2015. All Rights Reserved.</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="payment  text-right">
+									<a href="#"><img src="img/payment/1.png" alt="" /></a>
+									<a href="#"><img src="img/payment/2.png" alt="" /></a>
+									<a href="#"><img src="img/payment/3.png" alt="" /></a>
+									<a href="#"><img src="img/payment/4.png" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Copyright-area start -->
+			</footer>
+			<!-- FOOTER END -->
+			<!-- QUICKVIEW PRODUCT -->
+			<div id="quickview-wrapper">
+			   <!-- Modal -->
+			   <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="modal-product">
+									<div class="product-images">
+										<div class="main-image images">
+											<img alt="#" src="img/product/quickview-photo.jpg"/>
+										</div>
+									</div><!-- .product-images -->
+
+									<div class="product-info">
+										<h1>查詢/購買/預約</h1>
+										<div class="price-box-3">
+											<hr />
+											<div class="s-price-box">
+												請添加微信客服：jinni_tarot
+											</div>
+											<hr />
+										</div>
+										<div class="price-box-3">
+											<hr />
+											<div class="s-price-box">
+												或親臨門市選購
+											</div>
+											<hr />
+										</div>
+										<div class="quick-add-to-cart">
+											<form method="post" class="cart">
+												
+												<button class="single_add_to_cart_button" type="submit">週一公休，星期二至日 1:30-7:30pm</button>
+											</form>
+										</div>
+										<div class="quick-desc">
+											澳門滿$200 享Ebuy包郵，內地、香港、台灣滿$1000包郵
+										</div>
+										<div class="social-sharing">
+											<div class="widget widget_socialsharing_widget">
+												<h3 class="widget-title-modal">Follow and Like Jinni Tarot on Social Media</h3>
+												<ul class="social-icons">
+													<li><a target="_blank" title="Google +" href="https://www.google.com/search?q=%E7%B2%BE%E9%9D%88%E5%A1%94.%E6%B0%B4%E6%99%B6&stick=H4sIAAAAAAAA_wE8AMP_CAYiJTB4MzQwMTdiNTA5YTk2ZjliZDoweDJiOTllMTc0NjQ3NGYyOGKiBRDnsr7pnYjloZQu5rC05pm25d7I6jwAAAA&hl=zh-TW&mat=CaM7c8hhAI_-ElYBeenfiIZTkzigDaZMDcnQBP-CfoXZDvS8-3CTjbjqttLzcm_E8zercw-W4kIvS9iPIHj91pq0AoXswI-593GzC3vdG9jdCTE8rgOC4dGi2rsSvL_60g&authuser=0&ved=2ahUKEwjXtN6t2M2AAxWQ_2EKHTNrBZsQ-MgIegQIJxAe" class="gplus social-icon"><i class="zmdi zmdi-google-plus"></i></a></li>
+													<li><a target="_blank" title="Facebook" href="https://www.facebook.com/profile.php?id=100076219806057" class="facebook social-icon"><i class="zmdi zmdi-facebook"></i></a></li>
+													<li><a target="_blank" title="Instagram" href="https://www.instagram.com/jinni_tarot_macau/" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
+													<li><a target="_blank" title="XHS" href="https://www.xiaohongshu.com/user/profile/5fd4143a000000000100472c?xhsshare=CopyLink&appuid=5fd4143a000000000100472c&apptime=1696860131" class="twitter social-icon"><i class="zmdi zmdi-account"></i></a></li>
+												
+												</ul>
+											</div>
+										</div>
+									</div><!-- .product-info -->
+								</div><!-- .modal-product -->
+							</div><!-- .modal-body -->
+						</div><!-- .modal-content -->
+					</div><!-- .modal-dialog -->
+			   </div>
+			   <!-- END Modal -->
+			</div>
+			<!-- END QUICKVIEW PRODUCT -->
+
+		</div>
+		<!-- WRAPPER END -->
+
+		<!-- all js here -->
+		<!-- jquery latest version -->
+		<script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<!-- bootstrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- jquery.meanmenu js -->
+		<script src="js/jquery.meanmenu.js"></script>
+		<!-- slick.min js -->
+		<script src="js/slick.min.js"></script>
+		<!-- jquery.treeview js -->
+		<script src="js/jquery.treeview.js"></script>
+		<!-- lightbox.min js -->
+		<script src="js/lightbox.min.js"></script>
+		<!-- jquery-ui js -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- jquery.nivo.slider js -->
+		<script src="lib/js/jquery.nivo.slider.js"></script>
+		<script src="lib/home.js"></script>
+		<!-- jquery.nicescroll.min js -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- countdon.min js -->
+		<script src="js/countdon.min.js"></script>
+		<!-- wow js -->
+		<script src="js/wow.min.js"></script>
+		<!-- plugins js -->
+		<script src="js/plugins.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
